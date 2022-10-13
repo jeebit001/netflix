@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.movieDetail-top{
+  height: 79vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 20px 0;
+  
+}
+
+.movieDetail-top:before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.movie-poster{
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+.movie-title {
+  font-size: 46px;
+  font-weight: 700;
+}
+.tagline{
+  font-style: italic;
+  color: #efefef;
+  padding: 15px 0;
+}
+.detail-sub{
+  font-size: 14px;
+}
+.cast-img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.cast-list{
+  border: 1px solid #efefef;
+  border-radius: 15px;
+}
+.cast-detail{
+  padding: 7px;
+}
+.cast-name{
+  font-size: 15px;
+}
+.main-cast-img{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.knowm .cast-list{
+  border: none;
+}
+.similar-wrapper img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+a{
+  text-decoration: none;
+  color: #000;
+
+}
+
+.blocks-wrapper{
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.created span{
+  color: #fff ;
+}

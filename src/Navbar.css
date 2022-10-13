@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 0.3s ease-in;
+    z-index: 99;
+    
+}
+.nav--black{
+background-color: rgba(22, 22, 22, 0.8);
+}
+.nav__avatar{
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    right: 20px;
+}
